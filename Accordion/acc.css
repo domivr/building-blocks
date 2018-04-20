@@ -1,0 +1,36 @@
+.accordion {
+}
+
+.accordion ul {
+}
+
+.accordion li {
+  list-style-type: none;
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.accordion li label {
+  display: block;
+  background: orange;
+  padding: 5px;
+}
+.accordion input {
+  display: none;
+}
+
+li input ~ div {
+  display: none;
+}
+
+li input:checked ~ div {
+  display: block;
+}
+
+li input:checked + label {
+  background: red;
+}
+
+p {
+line-height: .6em;
+}
