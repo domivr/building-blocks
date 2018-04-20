@@ -2,6 +2,6 @@
 
 ## Project Assignments for Intro to CSS
 
-### Calculator
+### 1. Calculator
 
 [Calculator](./Calculator)
