@@ -1,0 +1,46 @@
+
+form {
+width: 50%;
+}
+
+fieldset {
+
+background: Gainsboro;
+
+}
+
+
+input[type=text] {
+width: 100%;
+display: inline-block;
+padding: 10px 10px;
+margin: 10px 0;
+width: 100%;
+box-sizing: border-box;
+}
+
+div label {
+display: block;
+font-weight: bold;
+}
+
+#billingsame {
+display: inline;
+}
+
+legend {
+color: black;
+text-align: right;
+font-size: 120%;
+}
+
+button {
+    background-color: lightGray;
+    color: black;
+    font-size: 120%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid lightGray;
+    width: 30%;
+    float: right;
+    }

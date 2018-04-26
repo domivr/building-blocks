@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8" />
+<title>Shipping and Billing Information</title>
+<meta name="generator" content="Geany 1.31" />
+<link type="text/css" href="shipping.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<form action="shipping.php">
+		<fieldset>
+			<legend>Shipping Address</legend>
+			<div>
+				<label for="firstname">First Name:</label>
+				<input name="firstname" type="text">
+			</div>
+			<div>
+				<label for="lastname">Last Name:</label>
+				<input name="lastname" type="text">				
+			</div>
+			<div>
+				<label for="address">Address:</label>
+				<input type="text" name="address">
+			</div>
+			<div>
+				<label for="city">City:</label>
+				<input name="city" type="text">
+			</div>
+			<div>
+				<label for="country">Country:</label>
+				<input name="country" type="text">
+			</div>
+			<div>
+				<label for="same" id="billingsame">Billing address same as shipping address</label>
+				<input name="same" value="same" id="same" type="checkbox">
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>Billing Address</legend>
+			<div>
+				<label for="firstname">First Name:</label>
+				<input name="firstname" type="text">
+			</div>
+			<div>
+				<label for="lastname">Last Name:</label>
+				<input name="lastname" type="text">				
+			</div>
+			<div>
+				<label for="address">Address:</label>
+				<input type="text" name="address">
+			</div>
+			<div>
+				<label for="city">City:</label>
+				<input name="city" type="text">
+			</div>
+			<div>
+				<label for="country">Country:</label>
+				<input name="country" type="text">
+			</div>
+			
+		</fieldset>
+		<div>
+			<button type="submit">Submit</button>
+		</div>
+					
+	</form>
+
+</body>
+
+</html>

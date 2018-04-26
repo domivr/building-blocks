@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+<title>untitled</title>
+<meta name="generator" content="Geany 1.31" />
+<link type="text/css" href="ccform.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<form action="shipping.php">
+		<fieldset>
+			<legend>Credit card information</legend>
+			<div>
+				<label for="fullname">Name on card</label>
+				<input name="fullname" type="text" tabindex="1">
+			</div>
+			<div>
+				<label for="cardnumber">Card number</label>
+				<input name="cardnumber" type="text" maxlength="19" tabindex="2">				
+			</div>
+		
+			<div>
+				<label for="expiration">Expiration</label>
+				<select id="exp_month" tabindex="3">
+					<optgroup label="Month">
+					<option value="01">January</option>
+					<option value="02">February</option>
+					<option value="03">March</option>
+					<option value="04">April</option>
+					<option value="05">May</option>
+					<option value="06">June</option>
+					<option value="07">July</option>
+					<option value="08">August</option>
+					<option value="09">September</option>
+					<option value="10">October</option>
+					<option value="11">November</option>
+					<option value="12">December</option>
+					</optgroup>
+				</select>
+				<select id="exp_year" tabindex="4">
+					<optgroup label="Year">
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+					<option value="2024">2024</option>
+					<option value="2025">2025</option>
+					<option value="2026">2026</option>
+					<option value="2027">2027</option>
+					<option value="2028">2028</option>
+					<option value="2029">2029</option>
+					<option value="2030">2030</option>
+					<option value="2031">2031</option>
+					<option value="2032">2032</option>
+					</optgroup>
+				</select>
+			</div>
+			<div>
+				<label for="csv">CSV code</label>
+				<input type="text" id="csv" name="csv" minlength="3" maxlength="4" tabindex="5">
+				<label for="showinfo" class="showinfo">Click here for more information about the CSV code...</label>
+				<input name="showinfo" id='showinfo' type="checkbox" />
+				<p class="showinfo">CSV or Card Security Verification is a secret 3 or 4 digit number used to authenticate an eCommerce transaction verifying a cardholder’s identity.</p>
+				<p><image src="csvnumber.png"></image></p>
+			</div>
+		
+		</fieldset>
+		
+		<div>
+			<button type="submit">Submit</button>
+		</div>
+					
+	</form>
+
+</body>
+
+</html>

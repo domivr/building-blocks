@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<meta charset="utf-8" />
+<title>untitled</title>
+<meta name="generator" content="Geany 1.31" />
+<link type="text/css" href="myform.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<form action="/">
+		<fieldset>
+			<legend>My Custom Form</legend>
+			<div>
+				<p>What is your gender?</p>
+				<label for="gender" >Male</label>
+				<input type="radio" name="gender" value="male" checked>
+				<label for="gender">Female</label>
+				<input type="radio" name="gender" value="female">
+				<label for="gender">Other</label>
+				<input type="radio" name="gender" value="other">
+				<hr />
+			</div>
+			<div>
+				<label for="number">Pick a number (1-10):</label>
+				<input type="number" value ="1" name="quantity" min="1" max="10">	
+				<hr />		
+			</div>
+			<div>
+				<label for="email">Pick all activities you do:</label>
+				<label>Hike</label><input type="checkbox" name="hiking" value="Hike">
+				<label>Run</label><input type="checkbox" name="run" value="Run">
+				<label>Swim</label><input type="checkbox" name="swim" value="Swim">
+				<label>Surf</label><input type="checkbox" name="surf" value="Surf">
+				<label>Ride Horse</label><input type="checkbox" name="horse" value="Horse riding">
+				<label>Bowl</label><input type="checkbox" name="bowl" value="Bowl">
+			</div>
+						
+		</fieldset>
+	</form>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+
+form {
+width: 40%;
+}
+div label {
+display: block;
+
+}
+div p ~ label {
+display: inline;
+}
+div label ~ label {
+display: inline;
+}
+
+div {
+margin: 10px 0 0 0;;
+}
+fieldset {
+background: Honeydew;
+}
+
+legend {
+color: red;
+text-align: right;
+font-size: 120%;
+}

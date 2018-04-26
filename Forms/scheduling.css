@@ -1,0 +1,48 @@
+form {
+width: 30%;
+}
+
+legend {
+color: black;
+text-align: right;
+font-size: 120%;
+}
+
+fieldset {
+background: Gainsboro;
+}
+
+select {
+padding: 10px 10px;
+margin: 10px 0;
+}
+
+input {
+width: 100%;
+display: inline-block;
+padding: 10px 10px;
+margin: 10px 0;
+width: 100%;
+box-sizing: border-box;
+}
+
+textarea {
+padding: 10px 10px;
+margin: 10px 0;
+}
+
+div label {
+display: block;
+font-weight: bold;
+}
+
+button {
+    background-color: darkGray;
+    color: black;
+    font-size: 120%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid black;
+    width: 30%;
+    float: right;
+}

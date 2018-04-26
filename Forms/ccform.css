@@ -1,0 +1,72 @@
+
+
+form {
+width: 50%;
+}
+
+fieldset {
+background: Gainsboro;
+}
+
+
+input[type=text] {
+width: 100%;
+display: inline-block;
+padding: 5px 5px;
+margin: 5px 0;
+width: 100%;
+box-sizing: border-box;
+}
+
+div label {
+display: block;
+font-weight: bold;
+}
+
+select {
+margin-bottom: 5px;
+}
+
+#csv {
+width: 4em;
+padding: 2px 3px;
+margin: 0;
+}
+
+legend {
+color: black;
+text-align: right;
+font-size: 120%;
+}
+
+.showinfo {
+font-size: 80%;
+margin-top: 5px;
+}
+#showinfo {
+display: none;
+}
+
+#showinfo ~ p {
+display: none;
+}
+
+#showinfo:checked ~ p {
+display: block;
+font-size: 80%;
+}
+
+image {
+float: left;
+}
+
+button {
+    background-color: lightGray;
+    color: black;
+    font-size: 120%;
+    padding: 7px 7px;
+    margin: 10px 0;
+    border: 1px solid lightGray;
+    width: 20%;
+    float: right;
+    }
